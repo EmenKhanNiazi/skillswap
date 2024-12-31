@@ -1,0 +1,43 @@
+/* viewingusers.css */
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.user-card ul {
+  padding-left: 20px;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,62 @@
+/* Colors inspired by the provided theme */
+:root {
+    --background-light: #f9f9f5;
+    --background-dark: #333333;
+    --accent-color: #b5a99f;
+    --text-dark: #222222;
+    --text-light: #ffffff;
+  }
+  
+  .about-container {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-header h1 {
+    font-size: 2.2rem;
+    color: var(--background-dark);
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    margin-bottom: 2rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+    color: var(--background-dark);
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+    color: var(--text-dark);
+  }
+  
+  .about-section li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  

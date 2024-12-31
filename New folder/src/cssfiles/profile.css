@@ -1,0 +1,134 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  height: 100%;
+}
+
+/* Profile container */
+.profile-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Sidebar styles */
+.profile-container .sidebar {
+  width: 250px;
+  background: linear-gradient(135deg, #76797c, #8696ac);
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Profile details */
+.profile-container .sidebar .profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-container .sidebar .profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url('/path/to/profile-pic.jpg') no-repeat center center / cover;
+  margin: 0 auto 15px auto;
+  border: 3px solid #f0f0f0;
+}
+
+.profile-container .sidebar .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.profile-container .sidebar .email,
+.profile-container .sidebar .age {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #cfcfcf;
+}
+
+/* Navigation links */
+.profile-container .sidebar .nav-links {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.profile-container .sidebar .nav-links li {
+  margin: 15px 0;
+}
+
+.profile-container .sidebar .nav-links a {
+  text-decoration: none;
+  color: #cfcfcf;
+  font-size: 1rem;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s;
+  background: none; /* Remove background color */
+  border: none; /* Remove border */
+}
+
+.profile-container .sidebar .nav-links a:hover {
+  background-color: rgba(64, 81, 78, 0.8);
+  color: #fff;
+}
+
+/* Main content */
+.profile-container .main-content {
+  flex: 1;
+  padding: 40px;
+  background: #f7f9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.profile-container .main-content .title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-container .main-content .location {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.profile-container .main-content .profbutton {
+  background: linear-gradient(135deg, #b4c6d9, #b3b4bd);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 5px;
+}
+
+.profile-container .main-content button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container .main-content button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

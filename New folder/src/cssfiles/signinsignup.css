@@ -1,0 +1,70 @@
+/* General styles for the body of the pages */
+.signbody {
+    /* background-color: black; */
+    background-color: rgb(62, 61, 56);
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Ensures text is visible on a dark background */
+font-size: 0.9rem;  
+}
+  
+  /* Container for centering the login/register box */
+  .signcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for proper centering */
+  }
+  
+  /* Styles for the login and register boxes */
+  .logintext, .registertext {
+   line-height: 10px;
+    width: 300px;
+    height: auto; /* Automatically adjusts height based on content */
+    height:420px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px; /* Adjusted padding for a cleaner look */
+    border-radius: 10px; /* Slightly rounder corners for modern aesthetics */
+    background-color: #2c2c2c; /* Subtle dark background for the box */
+    text-align: center; /* Centers text inside the box */
+    color: white; /* Ensures text is visible inside the box */
+    padding-top: 40px;  
+}
+
+#registerheight{
+  height:auto;
+}
+  
+  /* Input field styles */
+  input {
+    width: 100%; /* Takes full width of the container */
+    height: 35px;
+    font-size: 1rem; /* Slightly larger font for better readability */
+    margin-bottom: 15px; /* Increased spacing between fields */
+    border-radius: 10px;
+    padding: 6px 10px;
+    background-color: #EDE8F5;
+    border: none; /* Removes the default input border */
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%; /* Matches the width of the input fields */
+    height: 40px;
+    background-color: #B3B4BD;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem; /* Ensures button text is easily readable */
+    transition: background-color 0.3s ease; /* Adds a hover effect */
+ 
+margin-bottom: 25px; 
+}
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #8A8B94; /* Slightly darker color on hover */
+  }
+  

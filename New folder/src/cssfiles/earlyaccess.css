@@ -1,0 +1,56 @@
+.early-access {
+    background: linear-gradient(to left, #c0c2bb, #ffffff); /* Background gradient */
+    padding: 60px 20px; /* Space around the component */
+    text-align: center; /* Center-align text */
+    height: 450px;
+  }
+  
+  .early-access .content {
+    max-width: 600px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .early-access h1 {
+    font-size: 36px; /* Large heading */
+    font-weight: bold; /* Make it bold */
+    color: #000; /* Black color */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .early-access p {
+    font-size: 16px; /* Smaller paragraph text */
+    color: #555; /* Light gray color */
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+  .early-access .form {
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: center; /* Center-align the form */
+    gap: 10px; /* Space between input and button */
+  }
+  
+  .early-access .form input {
+    padding: 10px 15px; /* Inner padding for the input */
+    font-size: 16px; /* Input text size */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    flex: 1; /* Input grows to take up available space */
+    max-width: 300px; /* Limit maximum width */
+  }
+  
+  .early-access .form button {
+    background-color: #353433; /* Button background */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Inner padding for the button */
+    font-size: 16px; /* Button text size */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .early-access .form button:hover {
+    background-color: #ffa726; /* Darker shade on hover */
+  }
+  

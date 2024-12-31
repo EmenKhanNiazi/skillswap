@@ -1,0 +1,23 @@
+.main2{
+    padding: 1.3rem;
+  
+    text-align: center;
+  }
+  .one{
+    margin-left:50px;
+    margin-top: 110px;
+   line-height: 2.0rem; 
+   /* font-size: 1.7rem; */
+  }
+  .two{
+    margin-left: 120px;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+  .twoimg{
+    
+    width:640px;
+    height:400px;
+  }

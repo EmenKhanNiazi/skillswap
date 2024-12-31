@@ -1,0 +1,103 @@
+
+/* card components css */
+/* for componenets */
+/* Container for the cards */
+
+.gt{
+    background-color: rgb(62, 61, 56);
+    }
+    .containercards {
+      width: 100%;
+      max-width: 820px;
+      height: 400px; /* Increased to give content more space */
+      display: flex;
+      gap: 10px;
+      margin-inline: auto; /* Centers the container horizontally */
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    /* Card styling */
+    .card {
+      min-width: 70px;
+      height: 100%;
+      border-radius: 30px;
+      display: flex;
+      align-items: flex-end;
+      flex-grow: 1;
+      position: relative;
+      overflow: hidden;
+      transition: flex-grow 0.5s ease, transform 0.3s ease;
+      background-color: transparent; /* Prevent background interference */
+    }
+    
+    /* Card expands when hovered */
+    .card:hover {
+      flex-grow: 7; /* Expands to occupy more space */
+      height: 100%; /* Ensures it remains visually aligned */
+    }
+    
+    /* Background images for the cards */
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 30px;
+      z-index: 1; /* Background stays below content */
+    }
+    /* Overlaying content inside each card */
+    .card-content {
+      position: absolute; /* Ensure it overlaps the background */
+      z-index: 2; /* Ensure it's above the background */
+      padding: 20px;
+      background:#a4a2a0; /* Semi-transparent background */
+      color: white;
+    
+      margin: 0; /* Avoid extra spacing */
+      width: 100%;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+    /* Title styling */
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px; /* Add spacing */
+    }
+    
+    /* Description styling */
+    .description {
+      font-size: 16px;
+      margin-bottom: 10px; /* Add spacing */
+    }
+    
+    
+    /* Button styling */
+    .cta-button {
+      background-color: #EAE9E3;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    /* Button hover effect */
+    .cta-button:hover {
+      background-color: #535bf2;
+    }
+    .card:hover {
+      flex-grow: 7;
+    }
+    
+    .card:hover .card-content {
+      opacity: 1;
+      transform: translateX(0); /* Slide content into view */
+    }
+    

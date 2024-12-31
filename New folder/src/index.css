@@ -1,0 +1,38 @@
+img{
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+ 
+
+  
+}
+.background-color{
+  padding-top: 2rem;
+  
+   background-color: #EAE9E3;
+   /* padding: 2rem; */
+}
+body{
+  /* background-color: #EAE9E3; */
+ 
+  font-size: 1.1rem;
+}
+
+a {
+  /* font-weight: 500; */
+  color: #222222;
+  text-decoration: inherit;
+  /* text-decoration: none; */
+}
+/* a:hover {
+  color: #535bf2;
+}
+Link{
+  text-decoration: none;
+}
+
